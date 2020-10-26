@@ -1,43 +1,63 @@
 questão 1. Como funciona a interface homem máquina em um sistema operacional?
-o sistema operacional funcional como uma camada entre maquina e usuario,em que ele simplica gerenciando a memoria,os processos e a execução,facilitando a manipulação do computador.
+    
+    o sistema operacional funcional como uma camada entre maquina e usuario,em que ele simplica gerenciando a memoria,os processos e a execução,facilitando a 
+manipulação do computador.
+
 questão 2. O que são sistemas operacionais de kernel monolítico? Descreva a interação entre os
-programas hospedados pelo sistema operacional e o hardware para esse tipo de SO.
-são sistemas operacionais que usam um uncleo sitemas de supervisão em que serve de intermedio entre software and hardware.
+    
+    programas hospedados pelo sistema operacional e o hardware para esse tipo de SO.são sistemas operacionais que usam um uncleo sitemas de supervisão em que serve de intermedio entre software and hardware.
+
 questão 3. O que são sistemas operacionais baseados em camadas? Descreva a interação entre os
 programas hospedados pelo sistema operacional e o hardware para esse tipo de SO.
-devida a grande complexidade entre computadores e usuarios é possivel classificar niveis de complexidade entre os programa do usuario  até o hardware. programas hospedados pelo 0S ocupam a segunda camada e interagem com a memoria e o processamento do hardware tambem chamados de programs utilitarios.
+    
+    devida a grande complexidade entre computadores e usuarios é possivel classificar niveis de complexidade entre os programa do usuario  até o hardware. 
+programas hospedados pelo 0S ocupam a segunda camada e interagem com a memoria e o processamento do hardware tambem chamados de programs utilitarios.
+
 questão 4 que são sistemas operacionais baseados em microkernel? Descreva a interação entre os
 programas hospedados pelo sistema operacional e o hardware para esse tipo de SO.
-São sistema que usando uma cabada de abrastração entre o hardware ainda separa o kernel e modulos.
+    
+    São sistema que usando uma cabada de abrastração entre o hardware ainda separa o kernel e modulos.
+
 questão 5:Para cada um desses tipos de SO, apresente um caso de uso onde a arquitetura do kernel
 favorece a sua utilização.
-microkernel oferece suporte a resitir a falha e uma das istancias do kernel pois as outras estaram isoladas.
-questão 6;
-6. Explique a diferença entre os seguintes conceitos:
-(a) Tarefas;
-(b) Processos;
-(c) Threads
-a.conjunto comandos a serem executados que são arzenados na memoria,
-bconjunto de partições que regem o processamento do computador em ciclos de clock;
-c.partições multiplas armazenadas da memoria.
-7.. Apresente um exemplo prático para ilustrar as diferenças que você definiu?
-as terefas podem ser o codigo fonte enquanto apos compilado, a execução pega pedações da memoria que podem ser reutilizados(threads) e a execução vai ser processada em um conjunto de bloco de codigos.
-8. O que é a abordagem de Von Neumann? Como ela afeta a distribuição de tarefas em um
-Sistema Operacional?
-a abordagem de von neunman foi introduzir aos computadores o conceito de memoria,o OS  fica na memoria EPRON que gerencia as tarefas pois com OS podendo armazenar tarefas pra executar em fila melhorou muito aprogramação
-9. Quais são os possíveis estados dos processos em um sistema operacional?
-estado de espera,estado de criação,estado pronto,estado de execução,estado pronto.
-10.Qual é a diferença entre programação sequencial e multiprogramação? Apresente um
-exemplo para ilustrar suas justificativas.
-programação sequecial ocorre em uma instancia consecutiva o correndo em calculadoras e leds que so execuntação,enquanto na multiprogramação permite usar uma grande quantidade de processador de formar optimisavel facilitando a programação em sevidores.
+
+    microkernel oferece suporte a resitir a falha e uma das istancias do kernel pois as outras estaram isoladas.
+
+questão 6:Explique a diferença entre os seguintes conceitos:
+
+    (a) Tarefas;
+        a.conjunto comandos a serem executados que são arzenados na memoria,
+    (b)
+        (b).conjunto de partições que regem o processamento do computador em ciclos de clock;
+    (c)
+        (c).partições multiplas armazenadas da memoria.
+questão 7. Apresente um exemplo prático para ilustrar as diferenças que você definiu?
+    
+    as terefas podem ser o codigo fonte enquanto apos compilado, a execução pega pedações da memoria que podem ser reutilizados(threads) e 
+a execução vai ser processada em um conjunto de bloco de codigos.
+questão 8. O que é a abordagem de Von Neumann? Como ela afeta a distribuição de tarefas em um Sistema Operacional?
+
+    a abordagem de von neunman foi introduzir aos computadores o conceito de memoria,o OS  fica na memoria EPRON que gerencia as tarefas pois com OS podendo armazenar tarefas pra executar em fila melhorou muito aprogramação
+
+questão 9. Quais são os possíveis estados dos processos em um sistema operacional?
+    
+    estado de espera,estado de criação,estado pronto,estado de execução,estado pronto.
+
+questão 10.Qual é a diferença entre programação sequencial e multiprogramação? Apresente um xemplo para ilustrar suas justificativas.
+    
+    programação sequecial ocorre em uma instancia consecutiva o correndo em calculadoras e leds que so execuntação,enquanto na multiprogramação permite usar uma grande quantidade de processador de formar optimisavel facilitando a programação em sevidores.
+
 11. Descreva como é a utilização do processador em cada um dos exemplos, descrevendo os
 possíveis estados dos processos em cada etapa;
-(imcopriensivel sinticamente)
+    (imcopriensivel sinticamente)
+
 12. Descreva, com exemplos, como ocorre o problema da exclusão mútua e apresente duas
 possíveis soluções.
 quando dois ou mais programas tenta acessar a mesma regiaão da memoria,reolução 1:interrompear outras instacias de usar ou usar uma variavel mutilpla.
+
 13. O que são chamadas de sistema (SYSCALL)?
 são funções que permitem  interação com kernel pra fazer comandos direto com sistema
+
 14. Qual a diferença entre uma chamada trap e uma interrupção?
 Uma armadilha é uma exceção em um processo do usuário. É causado por divisão por zero ou acesso inválido à memória.
 Uma interrupção é algo gerado pelo hardware (dispositivos como disco rígido, placa gráfica, portas de E / S, etc.). Elas são assíncronas (ou seja, não ocorrem em locais previsíveis no código do usuário) ou "passivas", pois o manipulador de interrupções precisa esperar que elas aconteçam eventualmente
